@@ -1,0 +1,48 @@
+ul,li{
+    list-style: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.main,.mainh{
+    background-image: url(img/title.jpg);
+    background-repeat: repeat-x;
+    width: 100px;
+}
+
+li{
+    background-color: rgba(211, 214, 197, 0.84);
+}
+
+a{
+    text-decoration: none;
+    padding-left: 20px;
+    display: block;
+    width: 80px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-family: 微软雅黑;
+}
+
+.main a,.mainh a{
+    color: white;
+    background-image: url(img/biaoshi.gif);
+    background-repeat: no-repeat;
+    background-position: 3px center;
+}
+
+.main li a,.mainh li a{
+    color: black;
+    background-image: none;
+}
+
+.main ul,.mainh ul{
+    display: none;
+}
+
+.mainh{
+    float: left;
+}

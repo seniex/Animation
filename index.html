@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="jquery-2.2.2.min.js"></script>
+    <script src="index.js"></script>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <button id="btn1">隐藏</button>
+    <button id="btn2">显示</button>
+    <button id="btn3">显示/隐藏</button>
+    <p>hide</p>
+    <br/><br/><br/>
+    <script>
+        for (var i = 0;i<7;i++){
+            $("<div>").appendTo(document.body);
+            $(document).ready(function(){
+               $("div").click(function(){
+                   $(this).hide(1000);
+               });
+            });
+        }
+    </script>
+</body>
+</html>
